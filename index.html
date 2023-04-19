@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Seccion de Importacion de estilos, bootstraps, sitios de fonts etc -->
+   <!-- Profesor, Hay cosas que no entiendo pero dejare en comentarios todo lo que use ya que baje una plantilla de los links que nos dejo  -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Evaluacion 2</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- site icons -->
+   <link rel="icon" href="images/fevicon/fevicon.ico" type="image/png" />
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+   <!-- site css -->
+   <link rel="stylesheet" href="css/style.css" />
+   <!-- responsive css -->
+   <link rel="stylesheet" href="css/responsive.css" />
+   <!-- colors css -->
+   <link rel="stylesheet" href="css/colors.css" />
+   <!-- Animacion css -->
+   <link rel="stylesheet" href="css/animate.css" />
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+   <!-- La primera linea indica el final del elemento head y el comienzo del cuerpo (body del documento HTML) -->
+   <!-- La Segunda Linea establesco el ID del cuerpo del documento en "default_theme y agrego la clase "home_page1 al cuerpo" -->
+   <!-- Desde la linea 5 a la 53 describo la seccion de encabezado, que incuye el logotipo del sitio de Falabella 
+   y la navegacion principal -->
+   <!-- Describo la seccion de banner, que incluye el titulo y un 
+   llamado a la accion con un boton -->
+</head>
+
+<body id="default_theme" class="home_page1">
+   <!-- header -->
+   <header class="header header_style1">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-9 col-lg-10"><!-- creo una clase   -->
+               <div class="logo"><!--le doy una clase al logo --><a href="index.html"><!--  inserto imagen --><img
+                        src="images/logo.png" alt="#" /></a></div>
+               <div class="main_menu float-right">
+                  <div class="menu"><!-- creo la clase para el menu y distinguirlo para luego darle estilo -->
+                     <ul class="clearfix">
+                        <li class="active"><a href="index.html">CUENTAS</a></li>
+                        <!--creo los links de cuentas hasta portabilidad  -->
+                        <li><a href="about.html">AVANCES Y SUPER AVANCE</a></li>
+                        <li><a href="service.html">CREDITOS</a></li>
+                        <li><a href="screenshots.html">INVERSIONES</a></li>
+                        <li><a href="pricing.html">SEGUROS</a></li>
+                        <li><a href="team.html">DESCUENTOS</a></li>
+                        <li><a href="contact.html">CMR PUNTOS</a></li>
+                        <li><a href="contact.html">PORTABILIDAD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-lg-2">
+               <div class="right_bt"><a class="bt_main" href="index.html">MI CUENTA</a> </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- banner_parallax" y la clase "slide_banner1". Dentro de la sección, 
+      hay dos columnas que ocupan la mitad de su ancho cada una. En la columna 
+      izquierda, dejo un  encabezado h2 con el texto "UNETE AL BANCO DE LOS GENNIALS" 
+      y un párrafo con el texto "¡Pide tu CMR 100% Digital y en menos de 5 minutos!". 
+      También hay un botón con el texto "ABRELA AQUI" que lleva a la página de inicio del 
+      sitio web. En la columna derecha, hay una imagen que se carga desde el archivo "pc-banner.png".
+       Se utiliza la clase "wow" y las propiedades "data-wow-delay" y "data-wow-duration" para aplicar un 
+       efecto de animación de entrada.   -->
+   <section id="banner_parallax" class="slide_banner1">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="full">
+                  <div class="slide_cont">
+                     <h2>UNETE AL BANCO DE LOS <BR>
+                        GENNIALS</BR></h2>
+                     <p>¡Pide tu CMR 100% Digital y en menos de 5 minutos!</p>
+                     <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">ABRELA AQUI</a> </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="full">
+                  <div class="slide_pc_img wow fadeInRight" data-wow-delay="1s" data-wow-duration="2s"> <img
+                        src="images/pc-banner.png" alt="#" /> </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- fin del header -->
+   <!-- a continuacion defino una sección de una página web con 
+      un diseño de cuadrícula (grid), que consta de tres columnas como lo dejo en la class(col-md-4) 
+      en las que se muestro tres bloques de información.
+       Cada bloque incluye un icono, un titular (h3) y un párrafo de texto con información relevante y
+        un enlace para leer más sobre cada tema. Los temas específicos son la apertura de una cuenta corriente en línea, 
+        tasas de depósito a plazo y la solicitud de un avance en línea. Los estilos de diseño incluyen una gradiente de fondo, 
+        un diseño de cuadrícula y efectos de animación CSS (wow fadeInRight y data-wow-duration). -->
+
+   
+   <section class="layout_padding gradiant_bg cross_layout">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="information_blogs">
+                  <div class="imf_icon"><img src="images/icon1.png" alt="#" /></div>
+                  <div class="imf_head">
+                     <h3>Abre tu cuenta Corriente <br> 100% Online</h3>
+                  </div>
+                  <div class="imf_cont">
+                     <p>Haz click aqui y comienza a disfrutar de tus beneficios</p>
+                  </div>
+                  <div class="imf_read"><a href="#"></a></div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="information_blogs">
+                  <div class="imf_icon"><img src="images/icon2.png" alt="#" /></div>
+                  <div class="imf_head">
+                     <h3>¡Tenemos tasas increibles en deposito a plazo!</h3>
+                  </div>
+                  <div class="imf_cont">
+                     <p>Aprovecha, toma tu depósito a plazo (DAP) preionando acá ¡ Y sácale partido a<br> tu ahorros!
+                     </p>
+                  </div>
+                  <div class="imf_read"><a href="#"></a></div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="information_blogs">
+                  <div class="imf_icon"><img src="images/icon3.png" alt="#" /></div>
+                  <div class="imf_head">
+                     <h3>¡Pide hoy tu Avance!</h3>
+                  </div>
+                  <div class="imf_cont">
+                     <p>Simula y pídelo 100% online. !Obtenlo directo en tu cuenta!</p>
+                  </div>
+                  <div class="imf_read"><a href="#"></a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+<!-- En esta seccion  es un fragmento de código HTML que describe una sección de una página web que contiene v
+   arias promociones de Black Friday ofrecidas por Banco Falabella. Cada promoción tiene un título y una 
+   breve descripción, acompañada de una imagen y un botón de enlace para obtener más información. 
+   Hay un total de seis promociones enumeradas en la sección. -->
+   </section>
+   <section class="layout_padding padding_top_0"><!-- Defino  ubna seccion de la pagina web con una clase CSS "layout_padding padding _top_0 para proporcionaar estilos especificos a esta seccion y asi con las demas" -->
+      <div class="container"><!-- contenedor de elementos dentro de la seccion con la clase CSS "Container" -->
+         <div class="row margin_bottom_30">
+            <!-- featured cont -->
+            <div class="col-md-6 cont_theme_blog">
+               <div class="full">
+                  <h3>¡ Ya Comenzó el Black Friday en Banco Falabella !</h3><!--Agrego Encabezados  -->
+                  <p>¡ Encuentra descuentos y promociones increibles en nuestro Black Friday</p><!-- agrego parrafos de textos dentro del contenedor -->
+               </div>
+               <div class="full slide_bt"> <a class="white_bt bt_main" href="#">IR AL BLACK FRIDAY</a> </div>
+            </div>
+            <!-- end featured cont -->
+            <!-- featured image -->
+            <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
+               <div class="full">
+                  <div class="center"><img src="images/ser1.png" alt="#" /></div>
+               </div>
+            </div>
+            <!-- end featured image -->
+         </div>
+         <div class="row margin_bottom_30">
+            <!-- featured image -->
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5" data-wow-duration="1s">
+               <div class="full">
+                  <div class="center"><img src="images/ser2.png" alt="#" /></div>
+               </div>
+            </div>
+            <!-- end featured image -->
+            <!-- featured cont -->
+            <div class="col-md-6 cont_theme_blog">
+               <div class="full">
+                  <h3>¡ Comenzó Black Friday</h3>
+                  <p>Miles de Oportunidades únicas con tu CMR o Débito Banco Falabella</p>
+               </div>
+               <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">¡REVÍSALAS AQUÍ!</a> </div>
+            </div>
+            <!-- end featured cont -->
+         </div>
+         <div class="row margin_bottom_30">
+            <!-- featured cont -->
+            <div class="col-md-6 cont_theme_blog">
+               <div class="full">
+                  <h3>Seguro Automotriz Full Cobertura</h3>
+                  <p>Contrata tu seguro y llévate 4 Cuotas Gratis por este Black Friday!</p>
+               </div>
+               <div class="full slide_bt"> <a class="white_bt bt_main" href="#">CONTRÁTALO AQUI</a> </div>
+            </div>
+            <!-- end featured cont -->
+            <!-- featured image -->
+            <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
+               <div class="full">
+                  <div class="center"><img src="images/ser3.png" alt="#" /></div>
+               </div>
+               <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">
+                     <Colg></Colg>
+                  </a> </div>
+            </div>
+            <!-- end featured image -->
+         </div>
+         <div class="row margin_bottom_30">
+            <!-- featured image -->
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5" data-wow-duration="1s">
+               <div class="full">
+                  <div class="center"><img src="images/ser4.png" alt="#" /></div>
+               </div>
+            </div>
+            <!-- end featured image -->
+            <!-- featured cont -->
+            <div class="col-md-6 cont_theme_blog">
+               <div class="full">
+                  <h3>Abre tu CMR y Participa por una Gift Card</h3>
+                  <p>Sorteamos 8 giftcard de 1 millón entre los que abran su cmr entre el 28 de marzo y el 4 de abril.
+                  </p>
+               </div>
+               <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">PÍDELA AQUI</a> </div>
+            </div>
+            <!-- end featured cont -->
+         </div>
+         <div class="row margin_bottom_30">
+            <!-- featured cont -->
+            <div class="col-md-6 cont_theme_blog">
+               <div class="full">
+                  <h3>Paga sin Clave tu CMR o la cuota de tu Crédito</h3>
+                  <p>Los Gennials pagamos de manera rápida </p>
+               </div>
+               <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">HASLO AQUÍ</a> </div>
+            </div>
+            <!-- end featured cont -->
+            <!-- featured image -->
+            <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
+               <div class="full">
+                  <div class="center"><img src="images/ser5.png" alt="#" /></div>
+               </div>
+            </div>
+            <div class="row margin_bottom_30">
+               <!-- featured image -->
+               <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5" data-wow-duration="1s">
+                  <div class="full">
+                     <div class="center"><img src="images/ser6.png" alt="#" /></div>
+                  </div>
+               </div>
+               <!-- end featured image -->
+               <!-- featured cont -->
+               <div class="col-md-6 cont_theme_blog">
+                  <div class="full">
+                     <h3>¡Aliviana el pago de tu CMR!</h3>
+                     <p>Pasa a cuotas tus compras nacionales o internacionales hecha con tu CMR</p>
+                  </div>
+                  <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">VER MÁS</a> </div>
+               </div>
+               <div class="row margin_bottom_30">
+                  <!-- featured cont -->
+                  <div class="col-md-6 cont_theme_blog">
+                     <div class="full">
+                        <h3>Disfruta un 40% de dcto todos los martes con tu CMR o Débito Banco Falabella</h3>
+                        <p>Los Gennials tenemos los mejores descuentos</p>
+                     </div>
+                     <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">VER MÁS</a> </div>
+                  </div>
+                  <!-- end featured cont -->
+                  <!-- featured image -->
+                  <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
+                     <div class="full">
+                        <div class="center"><img src="images/ser7.png" alt="#" /></div>
+                     </div>
+                  </div>
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="information_blogsa">
+                              <div class="imf_icona"><img src="images/icon3_abajo.png" alt="#" /></div>
+                              <div class="imf_head">
+                                 <h3>Inscribe tu bip! a tu CMR ¡Y olvidate de las recargas</h3>
+                              </div>
+
+                              <div class="imf_read"><a href="#"></a></div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-4">
+                           <div class="information_blogsa">
+                              <div class="imf_icona"><img src="images/icon4_abajo.png" alt="#" /></div>
+                              <div class="imf_head">
+                                 <h3>¡Olvidate de pagar tu cuentas <br> a precio!</h3>
+                              </div>
+
+                              <div class="imf_read"><a href="#"></a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="information_blogsa">
+                              <div class="imf_icona"><img src="images/icon5_abajo.png" alt="#" /></div>
+                              <div class="imf_head">
+                                 <h3>¡Hazlo con tu Cuenta Corriente" Ábrela 100% online aquí"</h3>
+                              </div>
+
+                              <div class="imf_read"><a href="#"></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- e final de la seccion -->
+               </div>
+
+            </div>
+            <!-- final de la seccion -->
+            <!-- footer o pie de pagina  -->
+            <footer class="footer_style_2">
+               <div class="footer_top">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin_bottom_30">
+                           <div class="full width_9" style="margin-bottom:25px;"> <a href="#"><img
+                                    class="img-responsive" width="250" src="images/logo.png" alt="#"></a> </div>
+                           <div class="full width_9">
+                              <ul>
+                                 <h3>Nuestro Banco</h3>
+                                 <li><a href="#">Quienes Somos</a></li><br>
+                                 <li><a href="#">Directorio</a></li><br>
+                                 <li><a href="#">Administración</a></li><br>
+                                 <li><a href="#">Información institucional</a></li><br>
+                                 <li><a href="#">Documentos legales</a></li><br>
+                                 <li><a href="#">Taas y Tarifas</a></li><br>
+                                 <li><a href="#">Trabaja con nosotros</a></li><br>
+                                 <li><a href="#">Licitación Seguro Hipotecario</a></li><br>
+                                 <li><a href="#">FATCA</a></li><br>
+                                 <li><a href="#">Canal de Integridad</a></li><br>
+                                 <li><a href="#">Proveedores Portabilidad FInanciera</a></li><br>
+                              </ul>
+
+                           </div>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 margin_bottom_30">
+                           <div class="full">
+                              <div class="footer_blog_2 width_9">
+                                 <h3>Servicio al Cliente</h3>
+                                 <ul>
+                                    <li><a href="#">Preguntas Frecuentes</a></li><br>
+                                    <li><a href="#">Ayuda y contacto</a></li><br>
+                                    <li><a href="#">Tutoriales Banco Falabella</a></li><br>
+                                    <li><a href="#">Oficinas y Cajeros</a></li><br>
+                                    <li><a href="#">Protocolo COVID-19</a></li><br>
+                                    <li><a href="#">Portal Empresas</a></li><br>
+                                    <li><a href="#">Defensoría del Cliente</a></li><br>
+
+                                 </ul>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- footer bottom -->
+               <div class="footer_bottom">
+                  <p>Pagina Creada por <strong>Reinaldo Gomez</strong></p>
+               </div>
+            </footer>
+            <!-- Fin del Footer -->
+
+</body>
+
+</html>
